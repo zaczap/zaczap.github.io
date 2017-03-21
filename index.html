@@ -1,1 +1,126 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Portfolio for Zachary Zappala</title>
+
+    <!-- Import Bootstrap CSS from CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Catamaran|Yanone+Kaffeesatz" rel="stylesheet">
+
+    <!-- Import custom CSS -->
+	<link href="css/portfolio.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  	<div class="container">
+    	<div class="bar"><div class="title">Zachary Zappala</div></div>
+    <div class="menu2">
+    	<a href="#about">about</a> | <a href="#portfolio">portfolio</a> | <a href="#publications">publications</a>
+    </div>
+
+    <a name="about"></a>
+    <div class="block">
+	    <h2 class="background"><span>about</span></h2>
+	    <div class='about'>
+	    <div class='profile'>
+	     I am a computer scientist-turned-biologist using computational approaches to solve challenges in human genetics. I am almost done working towards my PhD at Stanford University, and have spent my graduate career focused on developing new methods to characterize regulatory variation. I have particularly focused on rare regulatory variants that are difficult to study with traditional approaches. I have extensive experience working with large genomic data sets in order to understand the functional consequences of common and rare genetic variation, and am passionate about using next-generation sequencing data to improve the accessibility and quality of medical treatment around the globe.
+	     </div>
+	     <div class='avatar'>
+	     <img class='clip-circle' src="static/images/profile.jpg" />
+	     </div>
+	     </div>
+    </div>
+
+
+    <a name="portfolio"></a>
+	<div class="block">
+    	<h2 class="background"><span>portfolio</span></h2>
+		<div class="project">
+			<div class="project_logo">
+				<img src="static/images/sardinia.png" />
+			</div>
+			<div class="project_description">
+				<h4>Sardinia eQTL and isoQTL browser</h4>
+				This web-based browser allows users to look at the association between millions of variants found in the Sardinia population with expression traits including splicing and allele-specific expression. The paper describing how this data was generated and some of the most important findings is available as a prepint on bioRxiv.
+			</div>
+			<div class="project_links">
+				<a href="http://biorxiv.org/content/early/2016/07/21/065144">Read preprint <span class="glyphicon glyphicon-file"></span></a><br/>
+				<a href="http://52.37.206.146:7998/">Visit browser <span class="glyphicon glyphicon-globe"></span></a>
+			</div>
+		</div>
+		<div class="project">
+			<div class="project_logo">
+				<img src="static/images/finemapping.png" />
+			</div>
+			<div class="project_description">
+				<h4>Cross-population fine-mapping browser</h4>
+				This browser makes it easy to see the association between gene expression and variants found in several populations that were sequenced as part of the 1000 Genomes project. Linkage disequilbirium (LD) between causal variants makes it difficult to infer the causal variant in any given population, but combining data across populations with different LD patterns can improve our ability to fine-map causal variants. This paper is currently in preparation.
+			</div>
+			<div class="project_links">
+				<a href="http://52.37.206.146:7999/">Visit browser <span class="glyphicon glyphicon-globe"></span></a>
+			</div>
+		</div>
+		<div class="project">
+			<div class="project_logo">
+				<img src="static/images/sexlogo.png" />
+			</div>
+			<div class="project_description">
+				<h4>Sex-specific eQTL browser</h4>
+				This browser makes it easy to explore findings from <a href='http://genome.cshlp.org/content/early/2016/04/21/gr.197897.115.full.pdf+html'>Kukurba et al 2016</a> regarding sex-specific regulatory elements. Such variants are more or less active depending on the sex of the carrier.
+			</div>
+			<div class="project_links">
+				<a href="http://genome.cshlp.org/content/early/2016/04/21/gr.197897.115.full.pdf+html">Read paper <span class="glyphicon glyphicon-file"></span></a><br/>
+				<a href="http://52.37.206.146:8000/">Visit browser <span class="glyphicon glyphicon-globe"></span></a>
+			</div>
+		</div>
+    </div>
+
+
+    <a name="publications"></a>
+	<div class="block">
+    	<h2 class="background"><span>publications</span></h2>
+
+
+		<ul class="publications">
+			<li>Kernohan, K.*, Fresard, L.*, <strong>Zappala, Z.*</strong>, et al. Genome-wide transcriptome sequencing in blood provides a diagnosis of spinal muscular atrophy with progressive myoclonic epilepsy (SMA-PME). Human Mutation, in press. * equal contributions</li>
+			<ul><li><a href="https://www.ncbi.nlm.nih.gov/pubmed/28251733">Read paper <span class="glyphicon glyphicon-file"></span></a></li></ul>
+			<li>Pala, M.*, <strong>Zappala, Z.*</strong>, et al. Population and individual effects of non-coding variants inform genetic risk factors. In press. * equal contributions</li>	
+			<ul><li><a href="http://biorxiv.org/content/early/2016/07/21/065144">Read preprint <span class="glyphicon glyphicon-file"></span></a></li></ul>
+			<li><strong>Zappala, Z.</strong> and S. B. Montgomery. Non-coding loss-of-function variation in human genomes. Human Heredity. 2016.</li>
+			<ul><li><a href="https://www.karger.com/Article/PDF/447453">Read paper <span class="glyphicon glyphicon-file"></span></a></li></ul>
+			<li>Kukurba, K. R., Parsana, P., Balliu, B., Smith, K. S., <strong>Zappala, Z.</strong>, Knowles, D. A., et al. Impact of the X chromosome and sex on regulatory variation. Genome Research. 2016.</li>
+			<ul><li><a href="http://genome.cshlp.org/content/early/2016/04/21/gr.197897.115.full.pdf+html">Read paper <span class="glyphicon glyphicon-file"></span></a></li></ul>
+			<li>Li, X., Battle, A., Karczewski, K. J. <strong>Zappala, Z.</strong>, Knowles, D. A, et al. Transcriptome sequencing of a large human family identifies the impact of rare noncoding variants. AJHG. 2014.</li>
+			<ul><li><a href="http://www.cell.com/ajhg/abstract/S0002-9297(14)00348-6">Read paper <span class="glyphicon glyphicon-file"></span></a></li></ul>
+			<li>Daneshjou, R.*, <strong>Zappala, Z.*</strong>, Kukurba, K., Boyle, S. M., et al. Path-scan: a reporting tool for identifying clinically actionable variants. Pacific Symposium of Biocomputing. 2013. * equal contributions</li>
+			<ul>
+				<li><a href="http://www.worldscientific.com/doi/pdf/10.1142/9789814583220_0023">Read paper <span class="glyphicon glyphicon-file"></span></a></li>
+				<li><a href="https://github.com/zaczap/pathscan">Download tool <span class="glyphicon glyphicon-download"></span></a></li>
+			</ul>
+			<li>Kikin, O.*, <strong>Zappala, Z.*</strong>, D’Antonio, L., and P.S. Bagga. GRSDB2 and GRS_UTRdb: databases of quadruplex forming G-rich sequences in pre-mRNAs and mRNAs. Nucleic Acids Research. 2008. * equal contributions</li>
+			<ul><li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2238929/">Read paper <span class="glyphicon glyphicon-file"></span></a></li></ul>
+		</ul>
+
+    </div>
+
+
+  	</div>
+
+
+  </body>
+</html>
+
+
+
+
